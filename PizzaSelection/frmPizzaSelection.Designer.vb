@@ -48,19 +48,25 @@ Partial Class frmPizzaSelection
         '
         'picDeepDish
         '
+        Me.picDeepDish.Image = Global.PizzaSelection.My.Resources.Resources.DeepDish
         Me.picDeepDish.Location = New System.Drawing.Point(13, 65)
         Me.picDeepDish.Name = "picDeepDish"
         Me.picDeepDish.Size = New System.Drawing.Size(185, 150)
+        Me.picDeepDish.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picDeepDish.TabIndex = 1
         Me.picDeepDish.TabStop = False
+        Me.picDeepDish.Visible = False
         '
         'picThinCrust
         '
+        Me.picThinCrust.Image = Global.PizzaSelection.My.Resources.Resources.ThinCrust
         Me.picThinCrust.Location = New System.Drawing.Point(215, 65)
         Me.picThinCrust.Name = "picThinCrust"
         Me.picThinCrust.Size = New System.Drawing.Size(185, 150)
+        Me.picThinCrust.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picThinCrust.TabIndex = 2
         Me.picThinCrust.TabStop = False
+        Me.picThinCrust.Visible = False
         '
         'btnDeepDish
         '
@@ -73,6 +79,7 @@ Partial Class frmPizzaSelection
         '
         'btnSelectPizza
         '
+        Me.btnSelectPizza.Enabled = False
         Me.btnSelectPizza.Location = New System.Drawing.Point(169, 226)
         Me.btnSelectPizza.Name = "btnSelectPizza"
         Me.btnSelectPizza.Size = New System.Drawing.Size(75, 23)
@@ -91,6 +98,7 @@ Partial Class frmPizzaSelection
         '
         'btnExit
         '
+        Me.btnExit.Enabled = False
         Me.btnExit.Location = New System.Drawing.Point(325, 313)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
@@ -117,11 +125,13 @@ Partial Class frmPizzaSelection
         Me.lblConfirmation.Size = New System.Drawing.Size(182, 18)
         Me.lblConfirmation.TabIndex = 8
         Me.lblConfirmation.Text = "Enjoy Your pizza selection."
+        Me.lblConfirmation.Visible = False
         '
         'frmPizzaSelection
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(412, 348)
         Me.Controls.Add(Me.lblConfirmation)
         Me.Controls.Add(Me.lblInstructions)

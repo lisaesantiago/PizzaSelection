@@ -118,6 +118,36 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeepDish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fair.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Falafel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marathon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Selfie1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Selfie2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThinCrust.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Veggie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeepDish1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeepDish2.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

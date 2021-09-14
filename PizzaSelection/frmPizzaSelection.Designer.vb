@@ -39,6 +39,7 @@ Partial Class frmPizzaSelection
         '
         Me.lblHeading.AutoSize = True
         Me.lblHeading.Font = New System.Drawing.Font("Tahoma", 16.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHeading.ForeColor = System.Drawing.Color.Firebrick
         Me.lblHeading.ImageAlign = System.Drawing.ContentAlignment.TopCenter
         Me.lblHeading.Location = New System.Drawing.Point(93, 9)
         Me.lblHeading.Name = "lblHeading"
@@ -70,41 +71,45 @@ Partial Class frmPizzaSelection
         '
         'btnDeepDish
         '
+        Me.btnDeepDish.BackColor = System.Drawing.Color.Wheat
         Me.btnDeepDish.Location = New System.Drawing.Point(72, 226)
         Me.btnDeepDish.Name = "btnDeepDish"
         Me.btnDeepDish.Size = New System.Drawing.Size(75, 23)
         Me.btnDeepDish.TabIndex = 3
         Me.btnDeepDish.Text = "Deep Dish"
-        Me.btnDeepDish.UseVisualStyleBackColor = True
+        Me.btnDeepDish.UseVisualStyleBackColor = False
         '
         'btnSelectPizza
         '
+        Me.btnSelectPizza.BackColor = System.Drawing.Color.Wheat
         Me.btnSelectPizza.Enabled = False
         Me.btnSelectPizza.Location = New System.Drawing.Point(169, 226)
         Me.btnSelectPizza.Name = "btnSelectPizza"
         Me.btnSelectPizza.Size = New System.Drawing.Size(75, 23)
         Me.btnSelectPizza.TabIndex = 4
         Me.btnSelectPizza.Text = "Select Pizza"
-        Me.btnSelectPizza.UseVisualStyleBackColor = True
+        Me.btnSelectPizza.UseVisualStyleBackColor = False
         '
         'btnThinCrust
         '
+        Me.btnThinCrust.BackColor = System.Drawing.Color.Wheat
         Me.btnThinCrust.Location = New System.Drawing.Point(265, 226)
         Me.btnThinCrust.Name = "btnThinCrust"
         Me.btnThinCrust.Size = New System.Drawing.Size(75, 23)
         Me.btnThinCrust.TabIndex = 5
         Me.btnThinCrust.Text = "Thin Crust"
-        Me.btnThinCrust.UseVisualStyleBackColor = True
+        Me.btnThinCrust.UseVisualStyleBackColor = False
         '
         'btnExit
         '
+        Me.btnExit.BackColor = System.Drawing.Color.Wheat
         Me.btnExit.Enabled = False
         Me.btnExit.Location = New System.Drawing.Point(325, 313)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 6
         Me.btnExit.Text = "Exit"
-        Me.btnExit.UseVisualStyleBackColor = True
+        Me.btnExit.UseVisualStyleBackColor = False
         '
         'lblInstructions
         '

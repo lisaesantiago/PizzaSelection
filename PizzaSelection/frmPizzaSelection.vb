@@ -36,4 +36,8 @@ Public Class frmPizzaSelection
     Private Sub lblInstructions_Click(sender As Object, e As EventArgs) Handles lblInstructions.Click
 
     End Sub
+
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Close()
+    End Sub
 End Class
